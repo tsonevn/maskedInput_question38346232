@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:mi="nativescript-maskedinput" navigatingTo="navigatingTo">
+  <StackLayout>
+    <mi:MaskedInput mask="1-999-999-9999? x999" hint="1-555-555-5555" placeholder="#" text="{{maskectext}}" />
+    <Button text="TAP" tap="onTap" />
+  </StackLayout>
+</Page>
